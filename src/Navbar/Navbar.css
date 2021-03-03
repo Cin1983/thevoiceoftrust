@@ -1,0 +1,14 @@
+.nav-icons i{
+    display:flex;
+    flex-direction: column;
+    font-size: 4rem;
+    color:fuchsia;
+    align-items: center; 
+}
+
+.navbar-left{
+    position:fixed;
+    width:5rem;
+    background-color: #1a191bd2;
+    height:100vh;
+}
