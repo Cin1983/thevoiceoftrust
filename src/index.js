@@ -1,16 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import Navbar from './Navbar/Navbar';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import App from "./App";
+import Navbar from "./Navbar/Navbar";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
+      <Navbar />
     <App />
+  
+  
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
-
-
